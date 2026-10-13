@@ -22,7 +22,7 @@ Molecular PCA from an aligned FASTA file, with optional group coloring from a CS
 
 ### taxonOutliers.R
 
-Flags taxa that are outliers on any statistic column from a summary table (e.g. `AMAS.py summary`), labeling them directly on the plot. Optionally, with a `groups.csv`, it compares groups via horizontal boxplots instead. This script will be updated to allow different inputs.
+Flags taxa that are outliers on any statistic column from a summary table (e.g., `AMAS.py summary`), labeling them directly on the plot. Optionally, with a `groups.csv`, it compares groups via horizontal boxplots instead. This script will be updated to allow different inputs.
 
 </td>
 <td width="50%">
@@ -52,7 +52,7 @@ A substitution-saturation plot: pairwise corrected vs. observed genetic distance
 
 ### CorrNet.R
 
-A correlation network from a table of pairwise Pearson/Spearman/other correlations (gene1, gene2, r, p-value): only the pairs passing an |r| and an p-value threshold are kept, with edges coloured by the sign of the correlation and each separate network highlighted by a shaded area. A quick way to see how the network structure changes as the thresholds move, and how genes (or any trait) covariate with others.
+A correlation network from a table of pairwise Pearson/Spearman/other correlations (gene1, gene2, r, p-value): only the pairs passing an |r| and a p-value threshold are kept, with edges coloured by the sign of the correlation and each separate network highlighted by a shaded area. A quick way to see how the network structure changes as the thresholds move, and how genes (or any trait) covary with others.
 
 </td>
 <td width="50%">
@@ -67,7 +67,7 @@ A correlation network from a table of pairwise Pearson/Spearman/other correlatio
 
 ### buscoBars.R
 
-A stacked bar plot of BUSCO results (single-copy, duplicated, fragmented, and missing) built directly from the summary table of a project, with one column per lineage dataset. A quick way to compare assembly completeness across species without collecting and renaming BUSCO output files. See and modify options in the script!
+A stacked bar plot of BUSCO results built directly from the summary table of your project, with one column per lineage dataset. A quick way to compare assembly completeness across species without collecting and renaming BUSCO output files. See and modify options in the script!
 
 </td>
 <td width="50%">
