@@ -61,4 +61,20 @@ A correlation network from a table of pairwise Pearson/Spearman/other correlatio
 
 </td>
 </tr>
+
+<tr>
+<td width="50%">
+
+### buscoBars.R
+
+A stacked bar plot of BUSCO results (single-copy, duplicated, fragmented, and missing) built directly from the summary table of a project, with one column per lineage dataset. A quick way to compare assembly completeness across species without collecting and renaming BUSCO output files. See and modify options in the script!
+
+</td>
+<td width="50%">
+
+<img src="buscoBars.png" width="100%">
+
+</td>
+</tr>
+
 </table>
